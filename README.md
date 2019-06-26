@@ -19,4 +19,6 @@ py setup.py install
 
 
 
-Reference [rubikscode](https://rubikscode.net/2019/02/11/implementing-cyclegan-using-python/)
+Reference: [rubikscode](https://rubikscode.net/2019/02/11/implementing-cyclegan-using-python/)
+
+Based on (junyanz)[https://junyanz.github.io/CycleGAN/]
