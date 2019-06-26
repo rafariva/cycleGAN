@@ -5,9 +5,11 @@ from cycle_gan import CycleGAN
 
 image_helper = ImageHelper()
 
+dataset_folder = "datasets/monet2photo"   #modify this folder
+
 print("Ploting the images...")
-filenames = np.array(glob('monet2photo/testA/*.jpg'))
+filenames = np.array(glob(dataset_folder+'/testA/*.jpg'))
 image_helper.plot20(filenames)
 
 generative_advarsial_network = CycleGAN((128, 128, 3), 10.0, image_helper)
-generative_advarsial_network.train(100, 1, "monet2photo")
+generative_advarsial_network.train(100, 1, dataset_folder)
