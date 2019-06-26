@@ -21,11 +21,11 @@ py setup.py install
 Must create a datasets folder, in side this any dataset that has to containt 4 folders: testA, testB, trainA, traingB. Dataset example can be downloaded (here)[https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/]
 ```
 \_ datasets\
-      \_ monet2real\
-             \_   testA
-             \_   testB
-             \_   trainA
-             \_   trainB
+     \_ monet2real\
+           \_   testA\
+           \_   testB\
+           \_   trainA\
+           \_   trainB\
 ```
 
 
