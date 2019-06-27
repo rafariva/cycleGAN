@@ -13,7 +13,7 @@ class ImageHelper(object):
         fig, axs = plt.subplots(2, 2)
         cnt = 0
         for i in range(2):
-            for j in range(3):
+            for j in range(2):
                 axs[i,j].imshow(plot_images[cnt])
                 axs[i, j].set_title(titles[j])
                 axs[i,j].axis('off')
