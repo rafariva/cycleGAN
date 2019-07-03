@@ -18,7 +18,7 @@ py setup.py install
 ```
 
 
-Must create a datasets folder, in side this any dataset that has to containt 4 folders: testA, testB, trainA, traingB. Dataset example can be downloaded (here)[https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/]
+Must create a datasets folder, in side this any dataset that has to containt 4 folders: testA, testB, trainA, traingB. Dataset example can be downloaded [here](https://people.eecs.berkeley.edu/~taesung_park/CycleGAN/datasets/)
 ```
 \_ datasets\
      \_ monet2real\
@@ -31,4 +31,4 @@ Must create a datasets folder, in side this any dataset that has to containt 4 f
 
 Reference: [rubikscode](https://rubikscode.net/2019/02/11/implementing-cyclegan-using-python/)
 
-Based on (junyanz)[https://junyanz.github.io/CycleGAN/]
+Based on [junyanz](https://junyanz.github.io/CycleGAN/)
