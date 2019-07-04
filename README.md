@@ -29,6 +29,10 @@ Must create a datasets folder, in side this any dataset that has to containt 4 f
 ```
 
 
+use cycle_gan.py or cyclegan.py, this two are different version (2nd has better results)
+
+
+
 Reference: [rubikscode](https://rubikscode.net/2019/02/11/implementing-cyclegan-using-python/)
 
 Based on [junyanz](https://junyanz.github.io/CycleGAN/)
